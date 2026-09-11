@@ -2,7 +2,7 @@
 
 Private development tracking for Relief Studio, a Windows image-to-relief application by Will Radford, inspired by Whitney Collins.
 
-Current delivered version: **2.13.0-alpha.1**.
+Current delivered version: **2.13.0-alpha.2**.
 
 - [Feature tracker](FEATURES.md)
 - [Release history](CHANGELOG.md)
