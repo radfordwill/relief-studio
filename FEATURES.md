@@ -43,3 +43,7 @@ same statuses. Keep release milestones and a separate validation checklist.
 ## 2.13.0-alpha.1
 
 [#23](https://github.com/radfordwill/relief-studio/issues/23): First Print Tutorial, eight steps from image to .relief save and native CFS 3MF export, action buttons, Back/Next, startup opt-out. Released; 33 automated tests and packaged walkthrough checks passed. First-time-user review pending.
+
+## 2.13.0-alpha.2
+
+[#25](https://github.com/radfordwill/relief-studio/issues/25): Fixed tutorial footer clipping. All steps checked at compact/default sizes in both themes. Visually verified labeled navigation and clicked Back/Next successfully.
