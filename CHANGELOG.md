@@ -1,5 +1,13 @@
 # Release history
 
+## 2.12.0-alpha.1 — 2026-09-11
+
+- Added software-rendered 3D grayscale and color relief orbit previews.
+- Added drag rotation, right-drag pan, wheel zoom, four preset views and Fit.
+- Added Refresh and clearly labeled display-only height exaggeration.
+- Reduced preview mesh detail independently of export detail; includes backing and color borders.
+- Added geometry/rendering tests and packaged UI coverage. No new print validation required for view-only geometry changes; user interaction review remains pending.
+
 ## 2.11.0-alpha.1 — 2026-09-11
 
 - Bundled versioned Creality CFS printer/PLA profiles with their inherited dependencies, license and source notice.
@@ -30,3 +38,4 @@
 - Added individual color layer counts.
 
 Earlier feature and validation notes remain in README.md.
+
