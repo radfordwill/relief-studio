@@ -35,3 +35,7 @@ same statuses. Keep release milestones and a separate validation checklist.
 | [#17](https://github.com/radfordwill/relief-studio/issues/17) | 20-change Undo/Redo | Released; automated/packaged checks passed; user validation pending |
 | [#18](https://github.com/radfordwill/relief-studio/issues/18) | Zoomable previews | Released; automated/packaged checks passed; user validation pending |
 | [#19](https://github.com/radfordwill/relief-studio/issues/19) | Reload original source | Released; automated/packaged checks passed; user validation pending |
+
+## 2.12.0-alpha.1
+
+[#21](https://github.com/radfordwill/relief-studio/issues/21): 3D grayscale/color relief inspection with orbit, pan, zoom, presets, refresh and display-only height exaggeration. Released; 32 automated tests and packaged interaction checks pass. User review remains pending.
