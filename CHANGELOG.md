@@ -1,5 +1,13 @@
 # Release history
 
+## 2.13.0-alpha.1 — 2026-09-11
+
+- Added Help > First Print Tutorial with eight scrollable steps, Back/Next and action buttons.
+- Covered image setup, dimensions, colors, profiles, preview/border, .relief save, native CFS 3MF export and slicer checks.
+- Added remembered Don't show at startup option; direct project-file launches skip startup display.
+- Navigation does not modify work or assume successful saving/export. Loading a replacement image from the tutorial asks before replacing existing work.
+- Added preference preservation tests and packaged walkthrough/action-routing checks.
+
 ## 2.12.0-alpha.1 — 2026-09-11
 
 - Added software-rendered 3D grayscale and color relief orbit previews.
