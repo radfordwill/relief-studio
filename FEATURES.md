@@ -39,3 +39,7 @@ same statuses. Keep release milestones and a separate validation checklist.
 ## 2.12.0-alpha.1
 
 [#21](https://github.com/radfordwill/relief-studio/issues/21): 3D grayscale/color relief inspection with orbit, pan, zoom, presets, refresh and display-only height exaggeration. Released; 32 automated tests and packaged interaction checks pass. User review remains pending.
+
+## 2.13.0-alpha.1
+
+[#23](https://github.com/radfordwill/relief-studio/issues/23): First Print Tutorial, eight steps from image to .relief save and native CFS 3MF export, action buttons, Back/Next, startup opt-out. Released; 33 automated tests and packaged walkthrough checks passed. First-time-user review pending.
