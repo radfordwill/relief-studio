@@ -26,3 +26,12 @@ and CHANGELOG.md with each release. Ideas are suggestions, not commitments.
 
 When moving to GitHub, turn IDs into Issues and use a Project board with the
 same statuses. Keep release milestones and a separate validation checklist.
+
+## 2.11.0-alpha.1 additions
+
+| GitHub issue | Feature | Status |
+|---|---|---|
+| [#16](https://github.com/radfordwill/relief-studio/issues/16) | Bundled Creality CFS profiles | Released; automated/packaged checks passed; user validation pending |
+| [#17](https://github.com/radfordwill/relief-studio/issues/17) | 20-change Undo/Redo | Released; automated/packaged checks passed; user validation pending |
+| [#18](https://github.com/radfordwill/relief-studio/issues/18) | Zoomable previews | Released; automated/packaged checks passed; user validation pending |
+| [#19](https://github.com/radfordwill/relief-studio/issues/19) | Reload original source | Released; automated/packaged checks passed; user validation pending |
