@@ -1,5 +1,11 @@
 # Release history
 
+## 2.13.0-alpha.2 — 2026-09-11
+
+- Fixed clipped tutorial controls by reserving footer rows and allowing only instructions to expand/shrink.
+- Added minimum sizes based on control requirements and equal-width Back/Close/Next buttons.
+- Added packaged regression checks for every tutorial step at compact/default sizes in both themes.
+
 ## 2.13.0-alpha.1 — 2026-09-11
 
 - Added Help > First Print Tutorial with eight scrollable steps, Back/Next and action buttons.
