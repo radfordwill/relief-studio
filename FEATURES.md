@@ -47,3 +47,7 @@ same statuses. Keep release milestones and a separate validation checklist.
 ## 2.13.0-alpha.2
 
 [#25](https://github.com/radfordwill/relief-studio/issues/25): Fixed tutorial footer clipping. All steps checked at compact/default sizes in both themes. Visually verified labeled navigation and clicked Back/Next successfully.
+
+## 2.14.0-alpha.1
+
+[#26](https://github.com/radfordwill/relief-studio/issues/26): Grayscale bands, custom color scales, two-height B/W and exactly-two-physical-layer B/W modes. Brightness/threshold mapping is shared across previews and exports, saved projects and Undo/Redo. Released with 36 automated tests and packaged mode checks; physical printing remains pending.
