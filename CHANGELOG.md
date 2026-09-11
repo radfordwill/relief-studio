@@ -1,5 +1,14 @@
 # Release history
 
+## 2.14.0-alpha.1 — 2026-09-11
+
+- Added grayscale bands, custom endpoint color scales, two-height B/W and exactly-two-print-layer B/W modes.
+- Added brightness contrast/inversion and B/W threshold controls.
+- Shared brightness mapping across flat/3D previews and STL/3MF/PNG exports.
+- Persisted modes and controls in projects and Undo/Redo, with legacy projects defaulting to detected colors.
+- Exactly-two-layer mode overrides base/depth/counts, disallows borders and reports images with no second-layer region.
+- Added mapping, inversion, two-layer native export and packaged project round-trip checks.
+
 ## 2.13.0-alpha.2 — 2026-09-11
 
 - Fixed clipped tutorial controls by reserving footer rows and allowing only instructions to expand/shrink.
