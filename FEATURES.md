@@ -26,3 +26,7 @@ STL itself does not store filament assignments. The regular native CFS 3MF expor
 ## 2.18.0-alpha.1 — Existing print colors
 
 Painting, row assignments and borders can select a named existing print color. Native CFS 3MF shares identical-color filament slots while retaining separate height stages. Adjacent matching stages need no tool change. Assignments copy colors; later edits are independent. 49 automated tests and packaged picker checks passed; physical slicer/print validation pending.
+
+## 2.18.0-alpha.2 — Closest assigned colors
+
+Painting now automatically picks the nearest assigned filament by RGB distance. Manual choices disable automatic matching until re-enabled. Border and assignment pickers rank matches and offer Use closest match. Matching uses digital swatches, not optical print predictions. 50 automated tests and packaged app checks passed.
