@@ -2,6 +2,10 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.18.0-alpha.2
+
+Painting now automatically picks the nearest assigned filament by RGB distance. Manual choices disable automatic matching until re-enabled. Border and assignment pickers rank matches and offer Use closest match. Matching uses digital swatches, not optical print predictions. 50 automated tests and packaged app checks passed.
+
 ## 2.18.0-alpha.1
 
 - Existing print-color swatches available for painting, row assignments and borders.
