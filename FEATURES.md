@@ -22,3 +22,7 @@ Implemented means available in a local build. Physical-print and clean-machine v
 | Transmission-distance preview | Experimental local TD development | Uncalibrated approximation; no print-color guarantee |
 
 STL itself does not store filament assignments. The regular native CFS 3MF export carries them. The experimental compact workflow exports aligned material parts with a color manifest instead.
+
+## 2.18.0-alpha.1 — Existing print colors
+
+Painting, row assignments and borders can select a named existing print color. Native CFS 3MF shares identical-color filament slots while retaining separate height stages. Adjacent matching stages need no tool change. Assignments copy colors; later edits are independent. 49 automated tests and packaged picker checks passed; physical slicer/print validation pending.
