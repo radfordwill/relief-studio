@@ -2,6 +2,13 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.18.0-alpha.1
+
+- Existing print-color swatches available for painting, row assignments and borders.
+- Native CFS exports reuse identical-color slots and skip redundant adjacent tool changes.
+- Painting retains a chosen filament when selecting another source area; preview reports unique slot count.
+- 49 automated tests and packaged checks passed; installer compiled. Physical slicer/print validation pending.
+
 ## 2.17.0-alpha.2
 
 - Removed external product comparisons from app text, help and export instructions.
