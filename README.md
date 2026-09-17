@@ -10,7 +10,7 @@ This repository is for development tracking only: feature status, bugs, release 
 - [Tracking and publication rules](TRACKING.md)
 - [Issues](https://github.com/radfordwill/relief-studio/issues)
 
-Current main app: **2.17.0-alpha.2**. Transmission-distance work remains a separate local development line, **2.16.0-dev.2**.
+Current main app: **2.18.0-alpha.1**. Transmission-distance work remains a separate local development line, **2.16.0-dev.2**.
 
 Credit: Will Radford. Inspired by Whitney Collins.
 Open-source dependency acknowledgments and licenses remain included with the app.
