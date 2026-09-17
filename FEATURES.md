@@ -30,3 +30,7 @@ Painting, row assignments and borders can select a named existing print color. N
 ## 2.18.0-alpha.2 — Closest assigned colors
 
 Painting now automatically picks the nearest assigned filament by RGB distance. Manual choices disable automatic matching until re-enabled. Border and assignment pickers rank matches and offer Use closest match. Matching uses digital swatches, not optical print predictions. 50 automated tests and packaged app checks passed.
+
+## 2.19.0-alpha.1 — Combine matching stages
+
+Matching paint colors can combine into existing height stages. Height changes require Yes/No confirmation; No retains a separate stage sharing the filament slot. Existing artwork rows can combine, and borders can use an artwork-stage height. Projects retain the choices. 54 automated tests and packaged checks passed; physical slicer/print validation remains pending.
