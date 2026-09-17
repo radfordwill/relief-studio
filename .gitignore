@@ -1,0 +1,8 @@
+# Tracking documents only. Review staged contents before every upload.
+/*
+!/.gitignore
+!/README.md
+!/FEATURES.md
+!/CHANGELOG.md
+!/ROADMAP.md
+!/TRACKING.md
