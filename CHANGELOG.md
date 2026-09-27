@@ -2,6 +2,14 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.23.0-alpha.1
+
+Added 42 MarsWork PLA Basic/Matte website swatches and 15 Creality measured-swatch entries, for 1,017 catalog records. Each new record includes its source URL. Existing personal records remain intact. Sources: [MarsWork Basic](https://www.marswork3d.com/products/pla-basic), [MarsWork Matte](https://www.marswork3d.com/products/pla-matte), and [FilamentColors Creality measurements](https://filamentcolors.xyz/library/manufacturer/177/).
+
+Assigned filament buttons now show the color name and TD status. Picker, border and painting descriptions include product/range. New entries retain unknown TD rather than guessed values; blank TD is supported in the library, projects and export metadata. Website swatches are not calibrated print measurements; independent measurements are not manufacturer guarantees.
+
+Validation: 64 automated tests and packaged GUI/project/export checks passed. Physical print validation remains pending. App source, catalog and installers remain local.
+
 ## 2.22.0-alpha.1
 
 Added File > Filament library and a main-window library button. Save catalog or new filaments to a persistent personal library; starred entries sort first and can be unstarred. Assignment, border and paint color pickers suggest personal filaments and display their known TD. Painting optionally auto-matches sampled colors to personal filaments.
