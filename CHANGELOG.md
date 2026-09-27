@@ -2,6 +2,14 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.22.0-alpha.1
+
+Added File > Filament library and a main-window library button. Save catalog or new filaments to a persistent personal library; starred entries sort first and can be unstarred. Assignment, border and paint color pickers suggest personal filaments and display their known TD. Painting optionally auto-matches sampled colors to personal filaments.
+
+Suggestions rank by digital RGB proximity. An optional preferred TD breaks ties between equally close colors; this is not a calibrated prediction of the best printed color or TD. Known filament identity remains attached to assignments.
+
+Validation: 63 automated tests and packaged GUI/project checks passed. Physical print validation remains pending. Source, catalog data and builds stay local.
+
 ## 2.21.0-alpha.1
 
 Integrated the known-filament library and supplied 960-profile catalog into the main app. Add/edit brand, product, material, color name, hex, TD in millimeters and source notes. Assignment, painting and border pickers provide library selection plus direct six-digit hex editing with a live swatch. Project assignments are independent copies. Custom hex clears known-filament identity. Same-hex filaments with different identity or TD remain separate in native CFS slots, combining, connected selection and compact parts. Native exports include a filament-record manifest.
