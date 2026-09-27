@@ -18,7 +18,7 @@ Implemented means available in a local build. Physical-print and clean-machine v
 | Windows installer and .relief association | Implemented | Clean-machine install/upgrade/uninstall validation pending |
 | Fine 0.25 mm default detail and surface detail inside color bands | Implemented, 2.17 | Mesh checks passed; comparison prints pending |
 | Compact relief | Experimental, 2.17 | Requires compatible repeats of the first filament color; separate aligned STL parts export, manual slicer material assignment |
-| Filament library with 960 supplied profiles | Local TD development | 41 brands; supplied values not independently verified |
+| Filament library with 960 supplied profiles | Implemented in main 2.21 | 41 brands; supplied values not independently verified |
 | Transmission-distance preview | Experimental local TD development | Uncalibrated approximation; no print-color guarantee |
 
 STL itself does not store filament assignments. The regular native CFS 3MF export carries them. The experimental compact workflow exports aligned material parts with a color manifest instead.
@@ -40,3 +40,11 @@ Matching paint colors can combine into existing height stages. Height changes re
 Added Raise connected color area in detected-color mode. Click the assigned-color preview to highlight a connected line or region, including diagonal neighbors. Zoom and pan help with thin lines. Set layers above the current highest artwork stage; the selected area becomes an independent top stage using the existing filament slot. Other artwork stage heights remain unchanged. A separate raised border follows the new artwork height. This first version does not support arbitrary local offsets within intervening filament bands. Frozen masks and counts persist in .relief projects and Undo/Redo; the 16-stage limit remains.
 
 Validation: 57 automated tests passed, including disconnected same-color regions, diagonal connectivity, mask restoration and watertight raised geometry. Packaged checks exercised click selection, three added layers, save/open and Undo/Redo. Physical print validation pending. App files remain local.
+
+## 2.21.0-alpha.1 — Known filament library
+
+Integrated the known-filament library and supplied 960-profile catalog into the main app. Add/edit brand, product, material, color name, hex, TD in millimeters and source notes. Assignment, painting and border pickers provide library selection plus direct six-digit hex editing with a live swatch. Project assignments are independent copies. Custom hex clears known-filament identity. Same-hex filaments with different identity or TD remain separate in native CFS slots, combining, connected selection and compact parts. Native exports include a filament-record manifest.
+
+TD is stored only in this step; no optical prediction or optimization was added to the main app. Library material identity does not automatically choose printer temperature profiles. Supplied TD values remain unverified.
+
+Validation: 61 automated tests and packaged GUI/project checks passed. Main Windows build includes the catalog. Physical slicer/print validation remains pending. Source, data and builds remain local.
