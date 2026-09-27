@@ -48,3 +48,11 @@ Integrated the known-filament library and supplied 960-profile catalog into the 
 TD is stored only in this step; no optical prediction or optimization was added to the main app. Library material identity does not automatically choose printer temperature profiles. Supplied TD values remain unverified.
 
 Validation: 61 automated tests and packaged GUI/project checks passed. Main Windows build includes the catalog. Physical slicer/print validation remains pending. Source, data and builds remain local.
+
+## 2.22.0-alpha.1 — Personal filament favorites
+
+Added File > Filament library and a main-window library button. Save catalog or new filaments to a persistent personal library; starred entries sort first and can be unstarred. Assignment, border and paint color pickers suggest personal filaments and display their known TD. Painting optionally auto-matches sampled colors to personal filaments.
+
+Suggestions rank by digital RGB proximity. An optional preferred TD breaks ties between equally close colors; this is not a calibrated prediction of the best printed color or TD. Known filament identity remains attached to assignments.
+
+Validation: 63 automated tests and packaged GUI/project checks passed. Physical print validation remains pending. Source, catalog data and builds stay local.
