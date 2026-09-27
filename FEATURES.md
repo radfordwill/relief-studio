@@ -56,3 +56,11 @@ Added File > Filament library and a main-window library button. Save catalog or 
 Suggestions rank by digital RGB proximity. An optional preferred TD breaks ties between equally close colors; this is not a calibrated prediction of the best printed color or TD. Known filament identity remains attached to assignments.
 
 Validation: 63 automated tests and packaged GUI/project checks passed. Physical print validation remains pending. Source, catalog data and builds stay local.
+
+## 2.23.0-alpha.1 — Catalog colors and names
+
+Added 42 MarsWork PLA Basic/Matte website swatches and 15 Creality measured-swatch entries, for 1,017 catalog records. Each new record includes its source URL. Existing personal records remain intact. Sources: [MarsWork Basic](https://www.marswork3d.com/products/pla-basic), [MarsWork Matte](https://www.marswork3d.com/products/pla-matte), and [FilamentColors Creality measurements](https://filamentcolors.xyz/library/manufacturer/177/).
+
+Assigned filament buttons now show the color name and TD status. Picker, border and painting descriptions include product/range. New entries retain unknown TD rather than guessed values; blank TD is supported in the library, projects and export metadata. Website swatches are not calibrated print measurements; independent measurements are not manufacturer guarantees.
+
+Validation: 64 automated tests and packaged GUI/project/export checks passed. Physical print validation remains pending. App source, catalog and installers remain local.
