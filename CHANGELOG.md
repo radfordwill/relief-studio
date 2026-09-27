@@ -2,6 +2,18 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.24.0-alpha.1
+
+Added Help > Advanced Relief Tutorial with eight steps for personal filaments, painting, layer counts, connected-area raising, borders and native export checks. Navigation does not change work.
+
+Added File > New relief, Ctrl+N and a main-window button. Save/Discard/Cancel protects current work; canceling or failing the save keeps the existing project. Library and preferences are retained.
+
+HEIC/HEIF/HIF import uses a bundled decoder, with no separate Windows image extension required. Imports the primary still image with orientation into 8-bit RGB; motion/depth/HDR information is not retained. Known-filament descriptions hide the unspecified-product placeholder without deleting metadata.
+
+3D inspection now offers Fast (100), Detailed (200, default) and Fine (400) longest-axis sample limits, bounded by export spacing. Dragging uses fast geometry and restores chosen detail on release. Export geometry/settings are unchanged.
+
+Validation: 67 automated tests passed, including HEIC decode and preview-resolution bounds. Packaged checks passed for decoder availability, tutorial navigation and New relief cancellation/reset, plus existing project/export coverage. Physical print and clean-machine checks remain pending. Only tracking text is published; app files remain local.
+
 ## 2.23.0-alpha.1
 
 Added 42 MarsWork PLA Basic/Matte website swatches and 15 Creality measured-swatch entries, for 1,017 catalog records. Each new record includes its source URL. Existing personal records remain intact. Sources: [MarsWork Basic](https://www.marswork3d.com/products/pla-basic), [MarsWork Matte](https://www.marswork3d.com/products/pla-matte), and [FilamentColors Creality measurements](https://filamentcolors.xyz/library/manufacturer/177/).
