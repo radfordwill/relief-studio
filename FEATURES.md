@@ -64,3 +64,15 @@ Added 42 MarsWork PLA Basic/Matte website swatches and 15 Creality measured-swat
 Assigned filament buttons now show the color name and TD status. Picker, border and painting descriptions include product/range. New entries retain unknown TD rather than guessed values; blank TD is supported in the library, projects and export metadata. Website swatches are not calibrated print measurements; independent measurements are not manufacturer guarantees.
 
 Validation: 64 automated tests and packaged GUI/project/export checks passed. Physical print validation remains pending. App source, catalog and installers remain local.
+
+## 2.24.0-alpha.1 — Advanced workflow and preview detail
+
+Added Help > Advanced Relief Tutorial with eight steps for personal filaments, painting, layer counts, connected-area raising, borders and native export checks. Navigation does not change work.
+
+Added File > New relief, Ctrl+N and a main-window button. Save/Discard/Cancel protects current work; canceling or failing the save keeps the existing project. Library and preferences are retained.
+
+HEIC/HEIF/HIF import uses a bundled decoder, with no separate Windows image extension required. Imports the primary still image with orientation into 8-bit RGB; motion/depth/HDR information is not retained. Known-filament descriptions hide the unspecified-product placeholder without deleting metadata.
+
+3D inspection now offers Fast (100), Detailed (200, default) and Fine (400) longest-axis sample limits, bounded by export spacing. Dragging uses fast geometry and restores chosen detail on release. Export geometry/settings are unchanged.
+
+Validation: 67 automated tests passed, including HEIC decode and preview-resolution bounds. Packaged checks passed for decoder availability, tutorial navigation and New relief cancellation/reset, plus existing project/export coverage. Physical print and clean-machine checks remain pending. Only tracking text is published; app files remain local.
