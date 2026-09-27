@@ -2,6 +2,14 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.21.0-alpha.1
+
+Integrated the known-filament library and supplied 960-profile catalog into the main app. Add/edit brand, product, material, color name, hex, TD in millimeters and source notes. Assignment, painting and border pickers provide library selection plus direct six-digit hex editing with a live swatch. Project assignments are independent copies. Custom hex clears known-filament identity. Same-hex filaments with different identity or TD remain separate in native CFS slots, combining, connected selection and compact parts. Native exports include a filament-record manifest.
+
+TD is stored only in this step; no optical prediction or optimization was added to the main app. Library material identity does not automatically choose printer temperature profiles. Supplied TD values remain unverified.
+
+Validation: 61 automated tests and packaged GUI/project checks passed. Main Windows build includes the catalog. Physical slicer/print validation remains pending. Source, data and builds remain local.
+
 ## 2.20.0-alpha.1
 
 Added Raise connected color area in detected-color mode. Click the assigned-color preview to highlight a connected line or region, including diagonal neighbors. Zoom and pan help with thin lines. Set layers above the current highest artwork stage; the selected area becomes an independent top stage using the existing filament slot. Other artwork stage heights remain unchanged. A separate raised border follows the new artwork height. This first version does not support arbitrary local offsets within intervening filament bands. Frozen masks and counts persist in .relief projects and Undo/Redo; the 16-stage limit remains.
