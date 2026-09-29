@@ -2,6 +2,14 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.25.0-alpha.1
+
+Fixed filament library mouse-wheel routing: the list scrolls independently, while the surrounding editing form scrolls under the pointer even in the modal assignment picker. Use and Close stay fixed at the bottom.
+
+Added Duplicate filament. It saves the displayed values as a starred personal copy with a fresh identity and unique copy name, selects it for editing, and leaves the original unchanged. Catalog IDs are not reused. Renamed Product / range to Filament line with examples Hyper PLA and PLA Matte.
+
+Validation: 68 automated tests passed. Packaged checks verified list/form scrolling in a grabbed dialog, independent duplicate creation and existing project/export flows. User validation remains pending. App files remain local; only tracking text is published.
+
 ## 2.24.0-alpha.1
 
 Added Help > Advanced Relief Tutorial with eight steps for personal filaments, painting, layer counts, connected-area raising, borders and native export checks. Navigation does not change work.
