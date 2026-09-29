@@ -76,3 +76,11 @@ HEIC/HEIF/HIF import uses a bundled decoder, with no separate Windows image exte
 3D inspection now offers Fast (100), Detailed (200, default) and Fine (400) longest-axis sample limits, bounded by export spacing. Dragging uses fast geometry and restores chosen detail on release. Export geometry/settings are unchanged.
 
 Validation: 67 automated tests passed, including HEIC decode and preview-resolution bounds. Packaged checks passed for decoder availability, tutorial navigation and New relief cancellation/reset, plus existing project/export coverage. Physical print and clean-machine checks remain pending. Only tracking text is published; app files remain local.
+
+## 2.25.0-alpha.1 — Filament scrolling and copies
+
+Fixed filament library mouse-wheel routing: the list scrolls independently, while the surrounding editing form scrolls under the pointer even in the modal assignment picker. Use and Close stay fixed at the bottom.
+
+Added Duplicate filament. It saves the displayed values as a starred personal copy with a fresh identity and unique copy name, selects it for editing, and leaves the original unchanged. Catalog IDs are not reused. Renamed Product / range to Filament line with examples Hyper PLA and PLA Matte.
+
+Validation: 68 automated tests passed. Packaged checks verified list/form scrolling in a grabbed dialog, independent duplicate creation and existing project/export flows. User validation remains pending. App files remain local; only tracking text is published.
