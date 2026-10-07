@@ -84,3 +84,9 @@ Fixed filament library mouse-wheel routing: the list scrolls independently, whil
 Added Duplicate filament. It saves the displayed values as a starred personal copy with a fresh identity and unique copy name, selects it for editing, and leaves the original unchanged. Catalog IDs are not reused. Renamed Product / range to Filament line with examples Hyper PLA and PLA Matte.
 
 Validation: 68 automated tests passed. Packaged checks verified list/form scrolling in a grabbed dialog, independent duplicate creation and existing project/export flows. User validation remains pending. App files remain local; only tracking text is published.
+
+## 2.25.1-alpha.1 — Swap-guide filament names
+
+Fixed swap-guide lines to include the selected library filament's brand, line, color name and TD alongside the editable stage label and hex. Manual text guides and native 3MF embedded guides share this behavior, including picked/painted stages and borders. Custom swatches are labeled Custom color. Existing exported guides require re-export from the saved project.
+
+Validation: 69 automated tests passed, including explicit library-name assertions for generic stage labels, painted stages, borders and custom labels in both guide formats. Packaged application checks passed. App files remain local.
