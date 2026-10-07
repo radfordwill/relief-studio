@@ -2,6 +2,12 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.25.1-alpha.1
+
+Fixed swap-guide lines to include the selected library filament's brand, line, color name and TD alongside the editable stage label and hex. Manual text guides and native 3MF embedded guides share this behavior, including picked/painted stages and borders. Custom swatches are labeled Custom color. Existing exported guides require re-export from the saved project.
+
+Validation: 69 automated tests passed, including explicit library-name assertions for generic stage labels, painted stages, borders and custom labels in both guide formats. Packaged application checks passed. App files remain local.
+
 ## 2.25.0-alpha.1
 
 Fixed filament library mouse-wheel routing: the list scrolls independently, while the surrounding editing form scrolls under the pointer even in the modal assignment picker. Use and Close stay fixed at the bottom.
