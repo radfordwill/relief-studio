@@ -90,3 +90,9 @@ Validation: 68 automated tests passed. Packaged checks verified list/form scroll
 Fixed swap-guide lines to include the selected library filament's brand, line, color name and TD alongside the editable stage label and hex. Manual text guides and native 3MF embedded guides share this behavior, including picked/painted stages and borders. Custom swatches are labeled Custom color. Existing exported guides require re-export from the saved project.
 
 Validation: 69 automated tests passed, including explicit library-name assertions for generic stage labels, painted stages, borders and custom labels in both guide formats. Packaged application checks passed. App files remain local.
+
+## 2.25.2-alpha.1 — Zoomed image color selection
+
+Add color from image now uses a resizable zoomable preview with plus/minus, Fit, mouse-wheel magnification, drag panning and scrollbars. Original image detail is retained rather than a small thumbnail. Click selection accounts for the displayed image coordinates; dragging does not pick another color. Overlay refresh preserves zoom. Selection controls sit beside the image.
+
+Validation: 69 automated tests and packaged checks passed. New packaged checks exercise zoomed canvas selection and drag without reselection. App files remain local.
