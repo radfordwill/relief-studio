@@ -2,6 +2,12 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.25.2-alpha.1
+
+Add color from image now uses a resizable zoomable preview with plus/minus, Fit, mouse-wheel magnification, drag panning and scrollbars. Original image detail is retained rather than a small thumbnail. Click selection accounts for the displayed image coordinates; dragging does not pick another color. Overlay refresh preserves zoom. Selection controls sit beside the image.
+
+Validation: 69 automated tests and packaged checks passed. New packaged checks exercise zoomed canvas selection and drag without reselection. App files remain local.
+
 ## 2.25.1-alpha.1
 
 Fixed swap-guide lines to include the selected library filament's brand, line, color name and TD alongside the editable stage label and hex. Manual text guides and native 3MF embedded guides share this behavior, including picked/painted stages and borders. Custom swatches are labeled Custom color. Existing exported guides require re-export from the saved project.
