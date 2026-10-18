@@ -1,10 +1,16 @@
 # Tracking and publication rules
 
-This is a public, documentation-only tracker. Keep all app development local regardless of repository visibility.
+This is a public development tracker with the specific installer-release exception below. Keep all app development local regardless of repository visibility.
+
+## Authorized installer release — 2026-10-18
+
+The owner explicitly authorized the customer installer ReliefStudio-2.26.0-alpha.6-Windows11-Setup.exe as an asset of prerelease v2.26.0-alpha.6. This is an exception only for that customer installer and its customer-facing release notes. It does not authorize uploading the owner issuer, signing keys, license records, website configuration, app source or other archives. The release tag points to this tracking repository, not app history.
+
+[Published alpha prerelease](https://github.com/radfordwill/relief-studio/releases/tag/v2.26.0-alpha.6).
 
 Allowed repository content: the named tracking Markdown documents, issue reports, text-only issue templates and this repository's restrictive .gitignore.
 
-Do not upload app source, build scripts, artwork, filament catalogs, executables, installers, source archives, development builds, test images or project files. Do not attach these to issues, releases or actions. Text reproduction steps and results are sufficient; keep test assets local.
+Except for the explicitly authorized installer asset above, do not upload app source, build scripts, artwork, filament catalogs, executables, installers, source archives, development builds, test images or project files. Do not attach these to issues, releases or actions. Text reproduction steps and results are sufficient; keep test assets local.
 
 Keep this tracking checkout separate from every app checkout. Never push app branches or history into this repository. The app checkout's disabled push URL must remain disabled.
 
