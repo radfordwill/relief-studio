@@ -2,6 +2,25 @@
 
 These notes describe local app builds. No binaries or source archives are published here.
 
+## 2.26.0-alpha.6 — alpha tester preparation
+
+Prepared locally on October 18, 2026. Windows 11 x64; owner/tester acceptance and new physical print validation remain pending.
+
+- Default first layer is 0.20 mm for new color reliefs; saved project settings are retained.
+- File > Recent projects remembers up to ten successful opens/saves, with clear and missing-file handling.
+- Automatic palette detection preserves small accent hues more effectively. The reported six-stage image now retains red and yellow-green instead of spending both slots on gray shades. A limited palette remains an opaque approximation, not a calibrated print prediction.
+- Copy code sits beside the app activation code.
+- A separate owner alpha issuer accepts live alpha requests and creates installation-bound offline licenses using the owner's verified signer. Paid online activation remains supported. Owner tool and signing material are not distributed with the customer app.
+- Website update 0.17 adds Help, FAQ, dark/light preference, responsive navigation and copy controls. Deployment is pending owner upload.
+
+Validation: 86 app tests; additional recent-list/accent tests; GUI first-layer/project/recent-list and clipboard tests; owner alpha issuance, reload, release/replay/reactivation and forged/wrong-device rejection; online activation and website authorization regressions; packaged customer and owner checks; desktop, phone and tablet website review. No new live payment or physical print was performed.
+
+### Earlier 2.26 live alpha work
+
+Added live website purchase and online activation, email-code sign-in, customer recovery/purchase linking, a manual update check, and purchase/activation links in feature prompts. The owner reported successful live payment and activation tests. The current priority is a small alpha tester group before sales promotion.
+
+All app files stay local. This repository contains tracking text only. Readiness: [issue #42](https://github.com/radfordwill/relief-studio/issues/42).
+
 ## 2.25.2-alpha.1
 
 Add color from image now uses a resizable zoomable preview with plus/minus, Fit, mouse-wheel magnification, drag panning and scrollbars. Original image detail is retained rather than a small thumbnail. Click selection accounts for the displayed image coordinates; dragging does not pick another color. Overlay refresh preserves zoom. Selection controls sit beside the image.
