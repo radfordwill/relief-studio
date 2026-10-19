@@ -6,9 +6,9 @@ This repository tracks features, bugs, release notes and validation. The owner h
 
 ## Download the alpha
 
-[Download Relief Studio Live 2.26.0-alpha.6 for Windows 11](https://github.com/radfordwill/relief-studio/releases/download/v2.26.0-alpha.6/ReliefStudio-2.26.0-alpha.6-Windows11-Setup.exe)
+[Download Relief Studio Live 2.26.0-alpha.7 for Windows 11](https://github.com/radfordwill/relief-studio/releases/download/v2.26.0-alpha.7/ReliefStudio-2.26.0-alpha.7-Windows11-Setup.exe)
 
-[Release notes and tester guidance](https://github.com/radfordwill/relief-studio/releases/tag/v2.26.0-alpha.6). This is an alpha prerelease; the installer is unsigned. Free features work without a license; optional paid features require activation.
+[Release notes and tester guidance](https://github.com/radfordwill/relief-studio/releases/tag/v2.26.0-alpha.7). This is an alpha prerelease; the app and installer are digitally signed and timestamped with verified publisher **Will Radford**. Windows SmartScreen may still show warnings while download reputation develops. Free features work without a license; optional paid features require activation.
 
 - [Feature status](FEATURES.md)
 - [Release notes](CHANGELOG.md)
@@ -16,7 +16,7 @@ This repository tracks features, bugs, release notes and validation. The owner h
 - [Tracking and publication rules](TRACKING.md)
 - [Issues](https://github.com/radfordwill/relief-studio/issues)
 
-Current local app: **Relief Studio Live 2.26.0-alpha.6**. Preparing a small alpha tester group before sales promotion; see [release readiness #42](https://github.com/radfordwill/relief-studio/issues/42). Transmission-distance work remains a separate local development line, **2.16.0-dev.2**.
+Published release: **Relief Studio Live 2.26.0-alpha.7**. Local alpha.8 is under review and is not published. Preparing a small alpha tester group before sales promotion; see [release readiness #42](https://github.com/radfordwill/relief-studio/issues/42). Transmission-distance work remains a separate local development line, **2.16.0-dev.2**.
 
 Credit: Will Radford. Inspired by Whitney Collins.
 Open-source dependency acknowledgments and licenses remain included with the app.
