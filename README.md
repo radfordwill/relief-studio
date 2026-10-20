@@ -20,7 +20,7 @@ Published release: **Relief Studio Live 2.26.0-alpha.7**. Local alpha.8 is under
 
 ## Community
 
-[Join the Relief Studio Live Discord community](https://discord.gg/fpedexwfjg) to share prints, get help, discuss filaments, and give alpha-testing feedback.
+[Join the Relief Studio Live Discord community](https://discord.gg/uvMgXWRnfJ) to share prints, get help, discuss filaments, and give alpha-testing feedback.
 
 For tracked bug reports and feature requests, use [GitHub Issues](https://github.com/radfordwill/relief-studio/issues).
 
