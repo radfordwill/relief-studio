@@ -18,5 +18,11 @@ This repository tracks features, bugs, release notes and validation. The owner h
 
 Published release: **Relief Studio Live 2.26.0-alpha.7**. Local alpha.8 is under review and is not published. Preparing a small alpha tester group before sales promotion; see [release readiness #42](https://github.com/radfordwill/relief-studio/issues/42). Transmission-distance work remains a separate local development line, **2.16.0-dev.2**.
 
+## Community
+
+[Join the Relief Studio Live Discord community](https://discord.gg/fpedexwfjg) to share prints, get help, discuss filaments, and give alpha-testing feedback.
+
+For tracked bug reports and feature requests, use [GitHub Issues](https://github.com/radfordwill/relief-studio/issues).
+
 Credit: Will Radford. Inspired by Whitney Collins.
 Open-source dependency acknowledgments and licenses remain included with the app.
